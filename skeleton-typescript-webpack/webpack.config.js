@@ -6,7 +6,14 @@ var ProvidePlugin = require('webpack/lib/ProvidePlugin');
 
 module.exports = {
   resolve: {
-    extensions: ['', '.js', '.ts']
+    extensions: ['', '.js', '.ts'],
+    alias: {
+      "marvelous-aurelia-core/utils$": "marvelous-aurelia-core/dist/common/utils",
+      "marvelous-aurelia-core/aureliaUtils$": "marvelous-aurelia-core/dist/common/aureliaUtils",
+      "marvelous-aurelia-core/compiler$": "marvelous-aurelia-core/dist/common/compiler",
+      "marvelous-aurelia-core/optionsReader$": "marvelous-aurelia-core/dist/common/optionsReader",
+      "marvelous-aurelia-core/pubsub$": "marvelous-aurelia-core/dist/common/pubsub"
+    }
   },
   devServer: {
     host: 'localhost',
