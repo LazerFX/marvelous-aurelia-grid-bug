@@ -10,7 +10,8 @@ import '../styles/styles.css';
 bootstrap((aurelia: Aurelia): void => {
   aurelia.use
     .standardConfiguration()
-    .developmentLogging();
+    .developmentLogging()
+    .plugin('marvelous-aurelia-grid');
 
   const rootElem = document.body;
   aurelia.start().then(() => aurelia.setRoot('app', rootElem));

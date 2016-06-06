@@ -47,7 +47,10 @@
     "bootstrap": "^3.3.6",
     "font-awesome": "^4.5.0",
     "isomorphic-fetch": "^2.2.1",
-    "jquery": "^2.2.3"
+    "jquery": "^2.2.3",
+    "marvelous-aurelia-core": "github:marveloussoftware/marvelous-aurelia-core",
+    "marvelous-aurelia-grid": "github:marveloussoftware/marvelous-aurelia-grid",
+    "marvelous-aurelia-query-language": "github:marveloussoftware/marvelous-aurelia-query-language"
   },
   "devDependencies": {
     "aurelia-tools": "^0.1.18",
